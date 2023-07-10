@@ -29,15 +29,15 @@ const Viewdata = () => {
                     <div className="row g-3">
                             {data.map((val,i)=>{
 
-                           
-                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6">
+                          
+                         return <div className="col col-12 col-sm-6 col-md-6 col-lg-6">
                             {/* //card starts */}
                             <div class="card" >
                                 <div class="card-header">
                                     Employee Data
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">{val.id}hi</li>
+                                    <li class="list-group-item">{val.id}</li>
                                     <li class="list-group-item">{val.name}</li>
                                     <li class="list-group-item">{val.email}</li>
                                 </ul>
