@@ -34,12 +34,12 @@ const Viewdata = () => {
                             {/* //card starts */}
                             <div class="card" >
                                 <div class="card-header">
-                                    Employee Data
+                                    Employee Details
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">{val.id}</li>
-                                    <li class="list-group-item">{val.name}</li>
-                                    <li class="list-group-item">{val.email}</li>
+                                    <li class="list-group-item"><p>Id :  {val.id}</p></li>
+                                    <li class="list-group-item"><p>Name :   {val.name}</p></li>
+                                    <li class="list-group-item"><p>Email  :  {val.email}</p></li>
                                 </ul>
                             </div>
 

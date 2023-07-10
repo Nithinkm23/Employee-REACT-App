@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Navbar />
             <Viewdata/>
-            Home</div>
+            </div>
     )
 }
 
