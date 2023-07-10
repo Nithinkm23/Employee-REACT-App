@@ -8,6 +8,10 @@ const Viewdata = () => {
 
     useEffect(()=>{
         axios.get('https://jsonplaceholder.typicode.com/users')
+        .then((response)=>{
+            setData(response.data)
+        })
+        .catch(err=>console.log(err))
     })
 
 
